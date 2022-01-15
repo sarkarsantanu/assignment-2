@@ -34,6 +34,33 @@ p{
     font-size: 20px;
 }
 /* Section-2 */
+.photo-album{
+    display: flex;
+}
+
+.photo-frame{
+    width:300px;
+    height:300px;
+    
+    margin: 15px;
+    margin-block-end: 15px;
+    
+    
+}
+.photo-detail{
+    position:absolute;
+    width:200px;
+}
+.photo img{
+    width:250px;
+    height:150px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.photo-detail .far fa-star{
+    color:orange;
+}
 /* Section-3 */
 .link2{
     text-decoration:none;
